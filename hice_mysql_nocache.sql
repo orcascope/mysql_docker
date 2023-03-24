@@ -1,0 +1,6 @@
+GRANT ALL PRIVILEGES ON *.* TO 'hiuser'@'%' identified by 'hiuser123' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
+GRANT PROXY ON ''@'' TO 'root'@'localhost' WITH GRANT OPTION;
+
+DROP DATABASE IF EXISTS hice;
+CREATE DATABASE hice;
