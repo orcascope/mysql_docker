@@ -78,6 +78,4 @@ ENTRYPOINT ["/usr/local/bin/mysql-docker-entrypoint.sh"]
 #mysql section ends
 
 EXPOSE 3306 33060 8080
-RUN chmod 777 /usr/local/bin/mysql_tomcat_startup.sh
-
 CMD ["mysqld","--user","mysql"]
