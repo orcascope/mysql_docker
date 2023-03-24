@@ -79,3 +79,7 @@ ENTRYPOINT ["/usr/local/bin/mysql-docker-entrypoint.sh"]
 
 EXPOSE 3306 33060 8080
 CMD ["mysqld","--user","mysql"]
+
+# CMD ["/bin/bash", "-c", "mysqld --user mysql"]
+# CMD mysqld --user mysql
+#CMD ["/opt/tomcat/bin/catalina.sh run"]
