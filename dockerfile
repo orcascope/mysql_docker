@@ -82,4 +82,5 @@ CMD ["mysqld","--user","mysql"]
 
 # CMD ["/bin/bash", "-c", "mysqld --user mysql"]
 # CMD mysqld --user mysql
+#Need to combine with the below command
 #CMD ["/opt/tomcat/bin/catalina.sh run"]
